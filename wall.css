@@ -8,6 +8,7 @@
 }
 
 :focus {
+  outline-color: currentColor;
   outline-style: dashed;
   outline-width: thick;
 }
