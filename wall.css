@@ -4,7 +4,7 @@
 }
 
 :any-link {
-  font-size: max(1em, 44px);
+  text-decoration-style: wavy;
 }
 
 :focus {
