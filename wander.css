@@ -1,0 +1,23 @@
+::selection {
+  background: indigo;
+  color: pink;
+}
+
+:root {
+  background: deeppink;
+  color: #111;
+}
+
+:any-link {
+  color: #fdfd00;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: hotpink;
+  }
+
+  :any-link {
+    background: mediumvioletred;
+  }
+}
